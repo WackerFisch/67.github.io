@@ -19,13 +19,13 @@
 
         /* Styling für die Logos */
         .logo-fish {
-            max-height: 80px; /* Höhe anpassen */
+            max-height: 80px;
             margin: 10px;
             vertical-align: middle;
         }
         
         .logo-67 {
-            max-height: 120px; /* Höhe anpassen, etwas größer als das Firmenlogo */
+            max-height: 120px;
             margin: 10px;
             vertical-align: middle;
         }
@@ -48,36 +48,32 @@
 </head>
 <body>
 
-    <!-- NEUER HEADER BEREICH -->
+    <!-- HEADER BEREICH -->
     <div class="header-container">
-        <!-- Firmenlogo (Links) -->
         <img src="logo_fish.png" alt="Fischcode Logo" class="logo-fish">
-        
-        <!-- App-Logo (Rechts) -->
         <img src="67_mit_operatoren.png" alt="67 Brainrot Calculator Maskottchen" class="logo-67">
-        
-        <!-- Optional: Ein kleiner Text darunter -->
-        <span class="company-name">Ein Projekt von **Fischcode**</span>
+        <span class="company-name">Ein Projekt von <strong>Fischcode</strong></span>
     </div>
-    <!-- ENDE NEUER HEADER BEREICH -->
 
+    <!-- DEUTSCHE VERSION -->
     <div class="section">
         <h2>Datenschutzerklärung (Deutsch)</h2>
         <p>Diese App ("67 Brainrot Calculator") wird als werbefinanzierte App von "Fischcode" angeboten. Diese Seite informiert Sie über meine Richtlinien zur Erhebung, Verwendung und Weitergabe personenbezogener Daten.</p>
 
         <h3>Datenerhebung und Verwendung</h3>
-        <p>Um die App-Funktionalität und das globale Ranking zu ermöglichen, werden folgende Daten verarbeitet und in einer Firebase-Datenbank gespeichert:</p>
+        <p>Um die App-Funktionalität, die Anmeldung, das globale Ranking sowie die Freundes-Zentrale zu ermöglichen, werden folgende Daten verarbeitet und in einer Firebase-Datenbank gespeichert:</p>
         <ul>
-            <li><strong>Benutzerdaten:</strong> Nickname, Alter, ausgewähltes Land und gewählter Charakter.</li>
-            <li><strong>Spiel-Statistiken:</strong> Durchgeführte Berechnungen, Spielzeit und Fortschrittsdaten.</li>
+            <li><strong>Benutzerdaten & Authentifizierung:</strong> Nickname, Alter, ausgewähltes Land, gewählter Charakter, E-Mail-Adresse und Profilinformationen bei Verwendung der Google-Anmeldung (Firebase Auth).</li>
+            <li><strong>Spiel- & Social-Statistiken:</strong> Durchgeführte Berechnungen, Spielzeit, Fortschrittsdaten sowie Freundschaftsanfragen und Freundeslisten.</li>
+            <li><strong>App-Stabilität & Fehlerdiagnose (Crashlytics):</strong> Technische Protokolle und Absturzberichte zur Behebung von Softwarefehlern.</li>
         </ul>
-        <p>Diese Daten dienen dazu, das Spielerlebnis zu personalisieren, Bestenlisten zu erstellen und die App-Performance zu verbessern.</p>
+        <p>Diese Daten dienen dazu, das Spielerlebnis zu personalisieren, Bestenlisten zu verwalten, soziale Interaktionen zu ermöglichen und die App-Stabilität zu verbessern.</p>
         
         <p>Die App nutzt Dienste von Drittanbietern:</p>
         <ul>
             <li><a href="https://www.google.com/policies/privacy/" target="_blank">Google Play Services</a></li>
             <li><a href="https://support.google.com/admob/answer/6128543?hl=de" target="_blank">AdMob (Google Werbenetzwerk)</a></li>
-            <li><a href="https://firebase.google.com/support/privacy" target="_blank">Firebase Cloud Firestore & Auth</a></li>
+            <li><a href="https://firebase.google.com/support/privacy" target="_blank">Firebase Cloud Firestore, Auth & Crashlytics</a></li>
         </ul>
 
         <h3>Werbung</h3>
@@ -89,24 +85,25 @@
         <p><strong>Entwickler:</strong> Fischcode</p>
     </div>
 
-    <!-- Englische Version (Hier habe ich den Header nicht wiederholt, um es sauber zu halten, aber man könnte ihn auch hier einfügen) -->
+    <!-- ENGLISCHE VERSION -->
     <div class="section">
         <h2>Privacy Policy (English)</h2>
         <p>This app ("67 Brainrot Calculator"), provided by "Fischcode", is an ad-supported application. This page informs you about my policies regarding the collection, use, and disclosure of personal data.</p>
 
         <h3>Data Collection and Usage</h3>
-        <p>To provide app functionality and global ranking, the following data is processed and stored in a Firebase database:</p>
+        <p>To provide app functionality, user authentication, global leaderboards, and the friends center, the following data is processed and stored in a Firebase database:</p>
         <ul>
-            <li><strong>User Data:</strong> Nickname, age, selected country, and chosen character.</li>
-            <li><strong>Game Statistics:</strong> Calculations performed, playtime, and game progress data.</li>
+            <li><strong>User Data & Authentication:</strong> Nickname, age, selected country, chosen character, email address, and profile information when using Google Sign-In (Firebase Auth).</li>
+            <li><strong>Game & Social Statistics:</strong> Calculations performed, playtime, progress data, as well as friend requests and friend lists.</li>
+            <li><strong>App Stability & Diagnostics (Crashlytics):</strong> Technical logs and crash reports used for fixing software errors and improving app performance.</li>
         </ul>
-        <p>This data is used to personalize your gaming experience, manage leaderboards, and improve app performance.</p>
+        <p>This data is used to personalize your gaming experience, manage leaderboards, enable social features, and improve app stability.</p>
         
         <p>The app uses third-party services:</p>
         <ul>
             <li><a href="https://www.google.com/policies/privacy/" target="_blank">Google Play Services</a></li>
             <li><a href="https://support.google.com/admob/answer/6128543?hl=de" target="_blank">AdMob (Google Ad Network)</a></li>
-            <li><a href="https://firebase.google.com/support/privacy" target="_blank">Firebase Cloud Firestore & Auth</a></li>
+            <li><a href="https://firebase.google.com/support/privacy" target="_blank">Firebase Cloud Firestore, Auth & Crashlytics</a></li>
         </ul>
 
         <h3>Advertising</h3>
